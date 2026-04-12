@@ -12,9 +12,9 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/HexaPic.png"
+        src="../../public/images/talha_img.jpeg"
         alt="Abdelrahman Qassem"
-        className="max-h-[450px] w-auto"
+        className="max-h-[400px] border border-cyan w-auto rounded-full"
       />
 
       <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
