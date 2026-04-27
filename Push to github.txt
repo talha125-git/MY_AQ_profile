@@ -1,5 +1,5 @@
 git add .
-git commit -m "setup gh pages deploy"
+git commit -m "Add Project live Link in TxT file"
 git push
 
 npm run deploy
