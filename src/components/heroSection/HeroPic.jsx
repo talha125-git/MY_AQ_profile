@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import talhaImg from "../../assets/talha_img.jpeg";
 
 const HeroPic = () => {
   return (
@@ -12,8 +13,8 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/talha_img.jpeg"
-        alt="Abdelrahman Qassem"
+        src={talhaImg}
+        alt="Talha img"
         className="max-h-[400px] border border-cyan w-auto rounded-full"
       />
 
